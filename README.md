@@ -1,75 +1,25 @@
-# Script MATKILAU V6-Websocket
- Welcome MAT KILAU😊
-
- <h2 align="center">AutoScript VPN By MATKILAU <img src="https://img.shields.io/badge/Version-6.0-blue.svg"></h2>
-
-
+<h2 align="center">AutoScriptVPN <img src="https://img.shields.io/badge/Version-Stable-purple.svg"></h2>
+<h2 align="center"> ♦️Autoscript SSH XRAYS Websocket Multiport By PAKYAVPN♦️</h2>                                 
 <h2 align="center"> Supported Linux Distribution</h2>
-<p align="center"><img src="https://d33wubrfki0l68.cloudfront.net/5911c43be3b1da526ed609e9c55783d9d0f6b066/9858b/assets/img/debian-ubuntu-hover.png"></p>
-<p align="center"><img src="https://img.shields.io/static/v1?style=for-the-badge&logo=debian&label=Debian%2010&message=Buster&color=blue"> <img src="https://img.shields.io/static/v1?style=for-the-badge&logo=debian&label=Debian%2011&message=Bullseye&color=blue"> <img src="https://img.shields.io/static/v1?style=for-the-badge&logo=ubuntu&label=Ubuntu%2018&message=18.04 LTS&color=blue"> <img src="https://img.shields.io/static/v1?style=for-the-badge&logo=ubuntu&label=Ubuntu%2020&message=20.04 LTS&color=blue"></p>
+<p align="center"><img src="https://d33wubrfki0l68.cloudfront.net/5911c43be3b1da526ed609e9c55783d9d0f6b066/9858b/assets/img/debian-ubuntu-hover.png"width="400"></p>
+<p align="center"><img src="https://img.shields.io/static/v1?style=for-the-badge&logo=debian&label=Debian%2012&message=Bookworm&color=purple"> <img src="https://img.shields.io/static/v1?style=for-the-badge&logo=debian&label=Debian%2013&message=Trixie&color=purple">  <img src="https://img.shields.io/static/v1?style=for-the-badge&logo=ubuntu&label=Ubuntu%2024&message=Focal&color=red"> <img src="https://img.shields.io/static/v1?style=for-the-badge&logo=ubuntu&label=Ubuntu%2025&message=Beta&color=red">
+</p>
 
-<p align="center"><img src="https://img.shields.io/badge/Service-OpenSSH-success.svg"> <img src="https://img.shields.io/badge/Service-Dropbear-success.svg">  <img src="https://img.shields.io/badge/Service-Websocket-success.svg"> <img src="https://img.shields.io/badge/Service-BadVPN-success.svg">  <img src="https://img.shields.io/badge/Service-Stunnel-success.svg">  <img src="https://img.shields.io/badge/Service-OpenVPN-success.svg">  <img src="https://img.shields.io/badge/Service-Squid3-success.svg">  <img   src="https://img.shields.io/badge/Service-Webmin-success.svg">  <img src="https://img.shields.io/badge/Service-OHP-success.svg">  <img
-src="https://img.shields.io/badge/Service-Xray-success.svg">  <img src= "https://img.shields.io/badge/Service-SSR-success.svg">  <img src="https://img.shields.io/badge/Service-Trojan Go-success.svg"> <img src="https://img.shields.io/badge/Service-Trojan-success.svg"> <img src="https://img.shields.io/badge/Service-WireGuard-success.svg"> <img src="https://img.shields.io/badge/Service-Shadowsocks-success.svg">
+<p align="center">
 
-## Commands : <img src="https://img.shields.io/static/v1?style=for-the-badge&logo=powershell&label=Shell&message=Bash%20Script&color=lightgray">
-
-## Update & Upgrade First Your VPS for Debian 10 & 11
-
-  ```html
-  apt-get update && apt-get upgrade -y && update-grub && sleep 2 && reboot
-
-  ```
-
-## Update & Upgrade First Your VPS for Ubuntu 18.04 & 20.04
-
-  ```html
-  apt-get update && apt-get upgrade -y && apt dist-upgrade -y && update-grub && sleep 2 && reboot
-
-  ```
  
 ## INSTALLATION SCRIPT
 
   ```html
-  sysctl -w net.ipv6.conf.all.disable_ipv6=1 && sysctl -w net.ipv6.conf.default.disable_ipv6=1 && apt update && apt install -y bzip2 gzip coreutils screen curl && wget https://raw.githubusercontent.com/matkilaupahlawan/matkilau/main/setup.sh && chmod +x setup.sh && sed -i -e 's/\r$//' setup.sh && screen -S setup ./setup.sh
-
-  ```
- 
- ## Copy & paste 👇👇 to your VPS if ERROR (WG ONLY)
- ## Wireguard
-
-  ```html
-  echo "deb http://deb.debian.org/debian/ unstable main" >/etc/apt/sources.list.d/unstable.list
-printf 'Package: *\nPin: release a=unstable\nPin-Priority: 90\n' >/etc/apt/preferences.d/limit-unstable
-apt update
-apt install -y wireguard-tools iptables iptables-persistent
-apt install -y linux-headers-$(uname -r)
- 
-  ```
- 
-   ```html
-systemctl restart wg-quick@wg0
+  wget -O install.sh https://raw.githubusercontent.com/jiwakentantal/nginx/main/install.sh && chmod +x install.sh && sed -i -e 's/\r$//' install.sh && ./install.sh
 
   ```
 
 ## Info :
 
- ## Script for Sell Only. Contact owner on Telegram @NORULEZZx <a href="https://t.me/NORULEZZx" target=”_blank”><img src="https://img.shields.io/static/v1?style=for-the-badge&logo=Telegram&label=Telegram&message=Click%20Here&color=blue"></a>
+ ## Script for Sell Only. Contact owner on Telegram @anakjati567 <a href="https://t.me/anakjati567" target=”_blank”><img src="https://img.shields.io/static/v1?style=for-the-badge&logo=Telegram&label=Telegram&message=Click%20Here&color=blue"></a>
 
- ## For Buy Script : Contact Telegram @NORULEZZx <a href="https://t.me/Virtual_NW" target=”_blank”><img src="https://img.shields.io/static/v1?style=for-the-badge&logo=Telegram&label=Telegram&message=Click%20Here&color=blue"></a>
-
- ## Main Menu
-
-![IMG_20220627_092250_806](https://user-images.githubusercontent.com/108207883/175843517-06b4cea2-8e63-4c28-b325-c6b8e2588425.jpg)
-
-
-
-  ## Status Running
- 
-![IMG_20220321_093550](https://user-images.githubusercontent.com/96321013/159195645-0e972ccf-6fe0-41bf-8339-cdaa64f3041e.jpg)
-
-  ## Service & Port
- 
-![IMG_20220321_093533](https://user-images.githubusercontent.com/96321013/159195702-f76319a9-1c77-42ad-af9e-ea8f3cbdf293.jpg)
+ ## For Buy Script : Contact Telegram @anakjati567 <a href="https://t.me/anakjati567" target=”_blank”><img src="https://img.shields.io/static/v1?style=for-the-badge&logo=Telegram&label=Telegram&message=Click%20Here&color=blue"></a>
 
 ## Description :
 
@@ -85,20 +35,22 @@ systemctl restart wg-quick@wg0
   - Websocket SSH(HTTP)     : 2081
   - Websocket SSL(HTTPS)    : 222
   - Websocket OpenVPN       : 2084
-  - Squid Proxy             : 3128, 8080, 8000
+  - Squid Proxy             : 3128, 8000
   - Badvpn                  : 7100, 7200, 7300
   - Nginx                   : 81
   - Wireguard               : 5820
   - Shadowsocks-R           : 1443-1543
   - SS-OBFS TLS             : 2443-2543
   - SS-OBFS HTTP            : 3443-3543
-  - XRAY Vmess Ws Tls       : 443
-  - XRAY Vless Ws Tls       : 443
+  - XRAY Vmess Grpc Tls     : 8443
+  - XRAY Vless Grpc Tls     : 9443
   - XRAY Vless Tcp Xtls     : 443
-  - XRAY Trojan Tcp Tls     : 443
+  - XRAY Trojan Tcp Tls     : 2087
+  - XRAY Trojan Grpc Tls    : 8080
+  - XRAY Vmess Ws Tls       : 7443
   - XRAY Vmess Ws None Tls  : 80
-  - XRAY Vless Ws None Tls  : 8080
-  - Trojan Go               : 2083
+  - XRAY Vless Ws Tls       : 2083
+  - XRAY Vless Ws None Tls  : 880
 
  >>> Server Information & Other Features
    - Timezone                 : Asia/Kuala_Lumpur (GMT +8)
@@ -119,13 +71,13 @@ systemctl restart wg-quick@wg0
 
 ## Credit :
 
-*   MATKILAUPAHLAWAN
+*   JIWAKENTANTAL VPN
 
-*   Project D
+*   Project X
 
 *   V2ray
 
 <p align="center">
-  <a><img src="https://img.shields.io/badge/Copyright%20©-MATKILAU%20AutoScriptVPN%202022.%20All%20rights%20reserved...-blueviolet.svg" style="max-width:200%;">
+  <a><img src="https://img.shields.io/badge/Copyright%20©-JIWAKENTAL%20AutoScriptVPN%202022.%20All%20rights%20reserved...-blueviolet.svg" style="max-width:200%;">
     </p>
    </p>
