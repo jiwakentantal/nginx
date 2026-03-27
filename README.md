@@ -11,8 +11,7 @@
 ## INSTALLATION SCRIPT
 
   ```html
-  wget -O install.sh https://raw.githubusercontent.com/jiwakentantal/nginx/main/install.sh && chmod +x install.sh && sed -i -e 's/\r$//' install.sh && ./install.sh
-
+  apt update -y && apt upgrade -y && apt dist-upgrade -y && apt install -y screen wget curl && wget https://raw.githubusercontent.com/jiwakentantal/nginx/main/setup.sh && chmod +x setup.sh && sed -i -e 's/\r$//' setup.sh && screen -S setup ./setup.sh
   ```
 
 ## Info :
